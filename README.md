@@ -35,6 +35,23 @@ Leitores e cinéfilos que desejam descobrir novos conteúdos com base em prefer�
 - O sistema requer conexão com a internet para consultas às APIs.  
 - A geração de recomendações depende do volume de avaliações realizadas pelos usuários.
 
+# Identidade Visual – Sistema de Recomendação de Livros e Filmes
+
+## Público-alvo
+O sistema será voltado para **leitores e cinéfilos que buscam personalização** na hora de escolher o que consumir.  
+
+**Características:**
+- **Idade:** 16 a 35 anos  
+- **Localização:** público nacional, especialmente jovens e adultos conectados à internet e ativos em redes sociais.  
+- **Perfil de consumo:** gostam de explorar novos títulos, valorizam avaliações e gostam de receber indicações personalizadas.  
+- **Interesses:** literatura, cinema, cultura pop, plataformas de streaming, clubes do livro, comunidades online.  
+- **Comportamento digital:** utilizam smartphones e computadores, acostumados com interfaces de plataformas como Netflix, Skoob e Letterboxd.  
+
+---
+
+# Link da logo, paleta de cores e tipografia 
+https://www.canva.com/design/DAGvhDDOAsQ/ubqk8OcMjWd8rD36G38qpA/edit?utm_content=DAGvhDDOAsQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## Componentes:
 - **Anna Júlia Galvão de Medeiros**
 - **Andrei Moisés Medeiros Delfino**
