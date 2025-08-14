@@ -51,6 +51,8 @@ O sistema será voltado para **leitores e cinéfilos que buscam personalização
 
 # Link da logo, paleta de cores e tipografia 
 https://www.canva.com/design/DAGvhDDOAsQ/ubqk8OcMjWd8rD36G38qpA/edit?utm_content=DAGvhDDOAsQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+# Requisitos do projeto 
+https://docs.google.com/document/d/1agT58mKhabCQoydbFlBOjwG71Odg-32IwTi0d6ZBiRo/edit?usp=sharing
 
 ## Componentes:
 - **Anna Júlia Galvão de Medeiros**
