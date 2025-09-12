@@ -25,7 +25,6 @@ allow_methods=["*"],
 allow_headers=["*"],
 )
 
-
 # incluir rotas
 app.include_router(api_router)
 
