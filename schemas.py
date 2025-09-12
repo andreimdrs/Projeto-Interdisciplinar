@@ -100,3 +100,5 @@ class RecommendationRead(RecommendationBase):
 
     class Config:
         orm_mode = True
+
+        

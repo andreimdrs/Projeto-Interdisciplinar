@@ -13,6 +13,7 @@ from schemas import (
     RecommendationRead
 )
 
+
 router = APIRouter()
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
