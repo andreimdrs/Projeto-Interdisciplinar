@@ -22,6 +22,18 @@ class UserUpdate(SQLModel):
     email: Optional[str] = None
     password: Optional[str] = None
 
+# Autenticação
+class UserLogin(SQLModel):
+    username: str
+    password: str
+
+class Token(SQLModel):
+    access_token: str
+    token_type: str
+
+class TokenData(SQLModel):
+    username: Optional[str] = None
+
 # Livro
 class BookBase(SQLModel):
     title: str
