@@ -16,13 +16,44 @@ Desenvolver um sistema web interativo que permita aos usuários cadastrar, avali
 Leitores e cinéfilos que desejam descobrir novos conteúdos com base em preferências pessoais, buscando praticidade e personalização na experiência.
 
 ## Funcionalidades Principais  
-1. **Cadastro e Login de Usuários**  
-2. **Busca e Exibição de Livros e Filmes**  
-3. **Sistema de Avaliação (notas e comentários)**  
-4. **Recomendações personalizadas**  
-5. **Integração com APIs externas (Google Books e TMDB)**  
-6. **Exibição de cards com capas, notas e sinopses**  
-7. **Histórico de Avaliações no perfil do usuário**
+1. **Cadastro e Login de Usuários** ✅ **CONCLUÍDO** (Parcialmente - Cadastro implementado, login em desenvolvimento)
+2. **Busca e Exibição de Livros e Filmes** ❌ **PENDENTE** (Modelos criados, endpoints não implementados)
+3. **Sistema de Avaliação (notas e comentários)** ✅ **CONCLUÍDO** (Endpoint de criação de avaliações implementado)
+4. **Recomendações personalizadas** ❌ **PENDENTE** (Modelo criado, algoritmo não implementado)
+5. **Integração com APIs externas (Google Books e TMDB)** ❌ **PENDENTE** (Não implementado)
+6. **Exibição de cards com capas, notas e sinopses** ❌ **PENDENTE** (Frontend não implementado)
+7. **Histórico de Avaliações no perfil do usuário** ❌ **PENDENTE** (Endpoints não implementados)
+
+## Status do Projeto
+
+### ✅ **IMPLEMENTADO:**
+- **Backend com FastAPI**: Estrutura base do servidor
+- **Modelos de Dados**: User, Book, Movie, Rating, Recommendation (SQLModel/SQLAlchemy)
+- **Banco de Dados**: Configuração SQLite (pode ser alterado para MySQL)
+- **Cadastro de Usuários**: Endpoint POST `/users/` com hash de senha (bcrypt)
+- **Atualização de Usuários**: Endpoint PUT `/users/{user_id}`
+- **Sistema de Avaliações**: Endpoint POST `/ratings/` para criar avaliações
+- **Schemas Pydantic**: Validação de dados de entrada e saída
+- **CORS**: Configurado para desenvolvimento
+- **Documentação Automática**: Swagger/OpenAPI disponível
+
+### ❌ **PENDENTE:**
+- **Sistema de Login/Autenticação**: Endpoint de login e JWT tokens
+- **Endpoints de Livros**: CRUD completo para livros
+- **Endpoints de Filmes**: CRUD completo para filmes
+- **Integração com APIs Externas**: Google Books e TMDB
+- **Sistema de Recomendações**: Algoritmo de recomendação personalizada
+- **Frontend**: Interface web responsiva
+- **Endpoints de Histórico**: Buscar avaliações do usuário
+- **Endpoints de Recomendações**: Buscar recomendações do usuário
+
+### 🔧 **TECNOLOGIAS UTILIZADAS:**
+- **Backend**: FastAPI (Python)
+- **Banco de Dados**: SQLite (configurável para MySQL)
+- **ORM**: SQLModel (SQLAlchemy)
+- **Validação**: Pydantic
+- **Hash de Senhas**: bcrypt (passlib)
+- **Servidor**: Uvicorn
 
 ## Tecnologias e Ferramentas Previstas  
 - **Front-end:** HTML, CSS, JavaScript, com framework como React + Vite.  
