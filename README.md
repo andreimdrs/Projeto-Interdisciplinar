@@ -29,7 +29,7 @@ Leitores e cinéfilos que desejam descobrir novos conteúdos com base em prefer�
 ### ✅ **IMPLEMENTADO:**
 - **Backend com FastAPI**: Estrutura base do servidor
 - **Modelos de Dados**: User, Book, Movie, Rating, Recommendation (SQLModel/SQLAlchemy)
-- **Banco de Dados**: Configuração Mysql (pode ser alterado para MySQL)
+- **Banco de Dados**: Configuração Mysql
 - **Sistema Completo de Autenticação**:
   - Cadastro de Usuários: Endpoint POST `/users/` com hash de senha (bcrypt)
   - Login com JWT: Endpoints POST `/token` e POST `/login`
