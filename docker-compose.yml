@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  # Serviço do Backend
+  backend:
+    build:
+      context: ./backend # Caminho para a pasta do backend
+      dockerfile: Dockerfile
+    container_name: meu_app_backend
+    ports:
+      - "8000:8000" # Mapeia a porta 8000 do host para a 8000 do contêiner
+    volumes:
+      - ./backend/app:/app # Monta o diretório 'app' local no contêiner para hot-reloading
+    environment:
+      - WATCHFILES_FORCE_POLLING=true # Ajuda no hot-reloading em alguns sistemas
+
+  # Serviço do Frontend
+  frontend:
+    build:
+      context: ./frontend # Caminho para a pasta do frontend
+      dockerfile: Dockerfile
+    container_name: meu_app_frontend
+    ports:
+      - "3000:80" # Mapeia a porta 3000 do host para a 80 do Nginx no contêiner
+    depends_on:
+      - backend # Garante que o backend inicie antes do frontend

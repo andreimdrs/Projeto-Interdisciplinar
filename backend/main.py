@@ -12,17 +12,18 @@ app = FastAPI(
     version="0.1.0"
 )
 
-
-# CORS
-origins = ["http://localhost", "http://localhost:3000"] # restringir em produção
-
+# Configuração de CORS para permitir requisições do frontend
+origins = [
+    "http://localhost:5173", # Endereço padrão do Vite
+    "http://localhost:3000", # Endereço alternativo que podemos mapear
+]
 
 app.add_middleware(
-CORSMiddleware,
-allow_origins=origins,
-allow_credentials=True,
-allow_methods=["*"],
-allow_headers=["*"],
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # incluir rotas
