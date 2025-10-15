@@ -15,6 +15,12 @@ Desenvolver um sistema web interativo que permita aos usuários cadastrar, avali
 ## Público-Alvo  
 Leitores e cinéfilos que desejam descobrir novos conteúdos com base em preferências pessoais, buscando praticidade e personalização na experiência.
 
+## Como resolver o problema no github com email e nome
+```text
+git config --global user.name "Jefferson Santos"
+git config --global user.email "jefferson@email.com"
+```
+
 ## Funcionalidades Principais  
 1. **Cadastro e Login de Usuários** ✅ **CONCLUÍDO** (Sistema completo implementado)
 2. **Busca e Exibição de Livros e Filmes** ❌ **PENDENTE** (Modelos criados, endpoints não implementados)
